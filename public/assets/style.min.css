@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url(fonts/Inter.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Spectral";
+  src: local("Spectral-Italic"),
+    url(fonts/Spectral-Italic.ttf) format("truetype");
+}
 body {
   max-width: 1920px;
   margin: auto;
@@ -201,14 +210,14 @@ form {
 }
 form input {
   width: 100%;
-  background-color: transparent;
+  background-color: #fff0;
   border: solid 1px;
   height: 2.5em;
   margin-bottom: 20px;
 }
 form textarea {
   width: 100%;
-  background-color: transparent;
+  background-color: #fff0;
   border: solid 1px;
   height: 5em;
   line-height: 2.5em;
